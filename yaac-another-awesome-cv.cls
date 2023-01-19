@@ -169,6 +169,7 @@
 \newcommand{\mailSymbol}{\faAt}
 \newcommand{\locationSymbol}{\faMapMarker}
 \newcommand{\infoSymbol}{\faInfo}
+\newcommand{\birthdaySymbol}{\faBirthdayCake}
 \newcommand{\linkedinSymbol}{\faLinkedin}
 \newcommand{\viadeoSymbol}{\faViadeo}
 \newcommand{\mobileSymbol}{\faMobilePhone}
@@ -221,6 +222,7 @@
 % Render author's infos
 % Usage: \infos{<infos>}
 \newcommand*{\infos}[1]{\socialtext{\infoSymbol}{#1}}
+\newcommand*{\bithday}[1]{\socialtext{\birthdaySymbol}{#1}}
 
 % Render author's linked-in (optional)
 % Usage: \linkedin{<linked-in-nick>}
@@ -377,7 +379,7 @@
 %                    }
 %                    {<Technology list>}
 \newcommand\experience[7]{
-  \textbf{#1}    & \textbf{#2, \textsc{#3}, #4}   								\\*
+  \textbf{#1}    & \textbf{#2} -- \textbf{#3}, {#4}   								\\*
   \textbf{#5}    & \begin{minipage}[t]{\rightcolumnlength}
   					         #6
                    \end{minipage}										\\*

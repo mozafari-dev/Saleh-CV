@@ -171,7 +171,7 @@
 \newcommand{\infoSymbol}{\faInfo}
 \newcommand{\birthdaySymbol}{\faBirthdayCake}
 \newcommand{\linkedinSymbol}{\faLinkedin}
-\newcommand{\viadeoSymbol}{\faViadeo}
+\newcommand{\scholarSymbol}{\faMortarBoard}
 \newcommand{\mobileSymbol}{\faMobilePhone}
 \newcommand{\githubSymbol}{\faGithub}
 
@@ -228,9 +228,9 @@
 % Usage: \linkedin{<linked-in-nick>}
 \newcommand*{\linkedin}[1]{\sociallink{\linkedinSymbol}{http://www.linkedin.com/in/#1/fr}{linkedin.com/in/#1}}
 
-% Render author's viadeo(optional)
+% Render author's google scholar(optional)
 % Usage: \viadeo{<viadeo-nick>}
-\newcommand*{\viadeo}[1]{\sociallink{\viadeoSymbol}{http://www.viadeo.com/fr/profile/#1}{viadeo.com/fr/profile/#1}} 
+\newcommand*{\scholar}[1]{\sociallink{\scholarSymbol}{https://scholar.google.com/#1}{Google Scholar}} 
 
 % Render author's github (optional)
 % Usage: \github{<github-nick>}
